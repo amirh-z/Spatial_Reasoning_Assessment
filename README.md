@@ -26,16 +26,16 @@ To obtain raw data, the hands and faces of the participants were recorded by a c
 
 ### Data Used
 It is necessary to prepare understandable quantities of raw data. The extracted parameters are as follows:
-• The time interval between the first time the participant raised their hand from under the table until the last time they put their hand under the table again.
-• The initial time of looking at the question before making any move.
-• The number of times the participant looked at the question after starting to solve the puzzle.
-• The number of times the participant stopped.
-• The total time the participant hesitated in solving the question. To calculate this time,
+- The time interval between the first time the participant raised their hand from under the table until the last time they put their hand under the table again.
+- The initial time of looking at the question before making any move.
+- The number of times the participant looked at the question after starting to solve the puzzle.
+- The number of times the participant stopped.
+- The total time the participant hesitated in solving the question. To calculate this time,
 a threshold value of 0.14 seconds was used, as the participant may be moving
 themselves on the chair, which is meaningless to be includec in the analysis.
-• Velocity and jerk of both hands. Initially, the instantaneous values of each were
+- Velocity and jerk of both hands. Initially, the instantaneous values of each were
 calculated, and ultimately the average of all instantaneous values was taken.
-• Velocity of head. Using the yaw and pitch angles, instantaneous angular velocities
+- Velocity of head. Using the yaw and pitch angles, instantaneous angular velocities
 were calculated. Finally, the average of all values was taken into consideration.
 It is worth mentioning that all these values have been calculated for each of the six tasks, seperately. One approach was to take the average of the six values for each participant, but we preferred to keep the values to increase precision.
 
