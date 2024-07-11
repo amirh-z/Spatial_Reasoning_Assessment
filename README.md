@@ -41,7 +41,8 @@ It is worth mentioning that all these values have been calculated for each of th
 
 ### Method
 Initially, using a Random Forest regression model, the importance of each feature was calculated. In the diagram below, you can see the top ten important features from which the top five were chosen. <br>
-
+<img width="787" alt="Screen Shot 2024-07-12 at 1 30 09 AM" src="https://github.com/user-attachments/assets/43ab04ee-5723-488d-8606-ffa492360551">
+<br>
 Two regression models, Random Forest and XGBoost, were constructed to examine how well they can perform in estimating MRT score. After tuning the hyperparameters using grid search of each model, they were k-fold cross-validated (k = 5) to ensure that the results are robust.
 
 ## Results
@@ -61,6 +62,4 @@ Since the process of progress in spatial reasoning is gradual and requires consi
 [2] D. H. Uttal, N. G. Meadow, E. Tipton, L. L. Hand, A. R. Alden, C. Warren and N. S. Newcombe, “The Malleability of Spatial Skills: A Meta-Analysis of Training Studies,” Psychological Bulletin, vol. 139, no. 2, pp. 352-402, Mar 2013. <br>
 [3] S. Sorby, “Developing Spatial Cognitive Skills Among Middle School Students,” Cognitive Processing, vol. 10, pp. 312-315, Aug 2009. <br>
 [4] Y. J. Kim, M. A. Knowles, J. Scianna, G. Lin and J. A. Ruiperez-Valiente, “Learning Analytics To Examine Validity And Generalizability of Game-based Assessment For Spatial Reasoning,” British Journal of Educational Technology, vol. 54, pp. 355-372, Oct 2022
-
-<img src="ScreenShots/MenuScreenShot.png" alt="Menu" width="400" height="300"/>
 
